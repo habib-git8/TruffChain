@@ -30,7 +30,7 @@ const SignIn = () => {
       console.log('Logged in user:', res.data.user);
 
       // ✅ Redirect to /home
-      navigate('/home');
+      navigate('/');
       localStorage.setItem('user', JSON.stringify(res.data.user));
     } catch (err) {
       setError(err.response?.data?.error || 'Something went wrong');
