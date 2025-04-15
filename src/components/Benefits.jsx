@@ -10,27 +10,27 @@ import BenefitCard from './BenefitCard';
 const benifitItems = [
     {
         Icon: ClockIcon,
-        title: 'Schedule Appointments',
+        title: 'Book Turfs Anytime',
         description:
-            'Book appointments 24/7 from any device, eliminating phone calls and back-and-forth emails.',
+            'Easily schedule turf bookings 24/7 from any device—no more phone calls or long wait times.',
     },
     {
         Icon: CalendarClockIcon,
-        title: 'Calendar Sync',
+        title: ' Smart Calendar Integration',
         description:
-            'Availly seamlessly integrates with your existing calendar, keeping all your appointments in one centralized location.',
+            'TurfChain syncs with your preferred calendar so all your bookings stay organized in one place.',
     },
     {
         Icon: BellRingIcon,
-        title: 'Automated Reminders',
+        title: 'Instant Notifications',
         description:
-            "Set automated appointment reminders to ensure you're always on time and avoid missed appointments.",
+            "Get real-time alerts and booking confirmations, ensuring you're always updated and never miss a session.",
     },
     {
         Icon: ListChecksIcon,
-        title: 'Customizable Services',
+        title: 'Flexible Turf Options',
         description:
-            'Reduce time spent on appointment scheduling and follow-ups, allowing you to focus on what matters most.',
+            'Browse and book from a range of customizable turf slots and services, making the experience smooth and personalized.',
     },
 ];
 

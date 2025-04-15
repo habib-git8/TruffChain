@@ -24,7 +24,7 @@ export default function BusinessSearch() {
       <SearchIcon className="absolute left-3 top-1/2 h-5 w-5 -translate-y-1/2 transform text-gray-500 dark:text-gray-400" />
       <Input
         className="focus:ring-primary-500 w-full rounded-md bg-white py-2 pl-10 pr-4 focus:border-transparent focus:outline-none focus:ring-2 dark:bg-gray-900 dark:text-gray-100 md:w-64"
-        placeholder="Search businesses"
+        placeholder="Search Truffs"
         type="text"
         onChange={(e) => handleSearch(e.target.value)}
         defaultValue={searchParams.get('query') || ''}  // Default value for input field
