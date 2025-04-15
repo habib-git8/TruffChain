@@ -51,7 +51,7 @@ export default function Navbar() {
         <nav className="sticky top-0 z-50 bg-white/60 shadow backdrop-blur-sm">
             <div className="wrapper container flex h-16 w-full items-center justify-between py-2 px-4 md:px-12">
                 <a href="/">
-                    <p className='text-md font-bold text-gray-900 dark:text-gray-100 md:text-xl'>Truff Book</p>
+                    <p className='text-md font-bold text-gray-900 dark:text-gray-100 md:text-xl'>Truff Chain</p>
                 </a>
 
                 <ul className="flex gap-4">
